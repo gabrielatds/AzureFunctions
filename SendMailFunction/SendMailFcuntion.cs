@@ -4,7 +4,7 @@ using System;
 
 namespace SendMailFunction
 {
-    public class SendMailHandler
+    public class SendMailFunction
     {
         [FunctionName("SendMailFunction")]
         public void Run([TimerTrigger("0 30 7 1/1 * ? *")]TimerInfo myTimer, ILogger log)
